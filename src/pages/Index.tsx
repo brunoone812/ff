@@ -43,22 +43,6 @@ const Index = () => {
                     Buy Token
                   </Button>
                   <Button size="lg" variant="outline" className="border-white/90 text-slate-50 bg-[#000a0e]/0">Get TIT$ NOW</Button>
-                  <Button 
-                    size="lg" 
-                    variant="outline" 
-                    className="border-white/90 text-slate-50 bg-[#000a0e]/0"
-                    onClick={() => window.open('https://t.me/boobstitsclub', '_blank')}
-                  >
-                    Community
-                  </Button>
-                  <Button 
-                    size="lg" 
-                    variant="outline" 
-                    className="border-white/90 text-slate-50 bg-[#000a0e]/0"
-                    onClick={() => window.open('https://pump.fun/coin/BK31h8nJDrkL1kihppm8LcX8JAc8VCShMv7kX3Fp5Gt1', '_blank')}
-                  >
-                    Pump Fun
-                  </Button>
                 </div>
               </div>
             </div>
