@@ -35,7 +35,13 @@ const Index = () => {
                 <p className="text-xl text-white/90 max-w-2xl mb-8 mx-auto">All about TIT$. Join BOOB$ CLUB community, buy club token, earn morning TIT$ everyday in your TG and make cash together.</p>
                 <p className="text-xl text-white/90 max-w-2xl mb-8 mx-auto">Address: BK31h8nJDrkL1kihppm8LcX8JAc8VCShMv7kX3Fp5Gt1</p>
                 <div className="flex gap-4 justify-center">
-                  <Button size="lg" className="bg-white/90 text-black hover:bg-white">Buy Token</Button>
+                  <Button 
+                    size="lg" 
+                    className="bg-white/90 text-black hover:bg-white"
+                    onClick={() => window.open('https://pump.fun/coin/BK31h8nJDrkL1kihppm8LcX8JAc8VCShMv7kX3Fp5Gt1', '_blank')}
+                  >
+                    Buy Token
+                  </Button>
                   <Button size="lg" variant="outline" className="border-white/90 text-slate-50 bg-[#000a0e]/0">Get TIT$ NOW</Button>
                   <Button 
                     size="lg" 
