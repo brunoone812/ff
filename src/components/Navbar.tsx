@@ -23,7 +23,12 @@ const Navbar = () => {
             >
               Community
             </Button>
-            <Button className="bg-white/90 text-black hover:bg-white">Buy Token</Button>
+            <Button 
+              className="bg-white/90 text-black hover:bg-white"
+              onClick={() => window.open('https://pump.fun/coin/BK31h8nJDrkL1kihppm8LcX8JAc8VCShMv7kX3Fp5Gt1', '_blank')}
+            >
+              Buy Token
+            </Button>
           </div>
         </div>
       </div>
