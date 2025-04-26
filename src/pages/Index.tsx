@@ -33,7 +33,7 @@ const Index = () => {
               <div className="relative" style={{ zIndex: 2 }}>
                 <h1 className="text-5xl md:text-6xl mb-6 text-slate-50 text-center font-extrabold">BOOB$ CLUB</h1>
                 <p className="text-xl text-white/90 max-w-2xl mb-8 mx-auto">All about TIT$. Join BOOB$ CLUB community, buy club token, earn morning TIT$ everyday in your TG and make cash together.</p>
-                <p className="text-xl text-white/90 max-w-2xl mb-8 mx-auto">Address:</p>
+                <p className="text-xl text-white/90 max-w-2xl mb-8 mx-auto">Address: BK31h8nJDrkL1kihppm8LcX8JAc8VCShMv7kX3Fp5Gt1</p>
                 <div className="flex gap-4 justify-center">
                   <Button size="lg" className="bg-white/90 text-black hover:bg-white">Buy Token</Button>
                   <Button size="lg" variant="outline" className="border-white/90 text-slate-50 bg-[#000a0e]/0">Get TIT$ NOW</Button>
