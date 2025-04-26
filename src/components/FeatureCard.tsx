@@ -2,7 +2,7 @@ import { LucideIcon } from "lucide-react";
 import { Card, CardContent } from "./ui/card";
 
 interface FeatureCardProps {
-  icon: LucideIcon;
+  icon: LucideIcon | React.ComponentType<{ className?: string }>;
   title: string;
   description: string;
   className?: string;
