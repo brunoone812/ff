@@ -8,7 +8,13 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <Logo />
           <div className="flex space-x-4">
-            <Button variant="ghost" className="text-white hover:bg-white/10">Subscribe to TIT$</Button>
+            <Button 
+              variant="ghost" 
+              className="text-white hover:bg-white/10"
+              onClick={() => window.open('https://t.me/boobstitsclub', '_blank')}
+            >
+              Subscribe to TIT$
+            </Button>
             <Button 
               variant="ghost" 
               className="text-white hover:bg-white/10"
