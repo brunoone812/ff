@@ -1,7 +1,16 @@
-import { Brain, Code, Users } from "lucide-react";
+import { Users } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import FeatureCard from "@/components/FeatureCard";
 import { Button } from "@/components/ui/button";
+
+const SisiIcon = ({ className }: { className?: string }) => (
+  <img src="/lovable-uploads/sisi.png" alt="Sisi" className={className} />
+);
+
+const CashIcon = ({ className }: { className?: string }) => (
+  <img src="/lovable-uploads/cash.png" alt="Cash" className={className} />
+);
+
 const Index = () => {
   return <div className="min-h-screen flex flex-col">
       <div className="relative">
@@ -40,8 +49,18 @@ const Index = () => {
                 <h2 className="text-3xl font-bold text-center text-white">WTF is BOOB$ CLUB?</h2>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <FeatureCard icon={Brain} title="Get everyday TIT$" description="If you are holder of 100k BOOB$ get fresh TIT$ to your TG everyday." className="bg-black/40 backdrop-blur-sm text-white border-none" />
-                <FeatureCard icon={Code} title="MoneyMake" description="Make money with BOOB$ CLUB community" className="bg-black/40 backdrop-blur-sm text-white border-none" />
+                <FeatureCard 
+                  icon={SisiIcon}
+                  title="Get everyday TIT$" 
+                  description="If you are holder of 100k BOOB$ get fresh TIT$ to your TG everyday." 
+                  className="bg-black/40 backdrop-blur-sm text-white border-none" 
+                />
+                <FeatureCard 
+                  icon={CashIcon}
+                  title="MoneyMake" 
+                  description="Make money with BOOB$ CLUB community" 
+                  className="bg-black/40 backdrop-blur-sm text-white border-none" 
+                />
                 <FeatureCard icon={Users} title="Grow Community" description="Connect with like-minded BOOB$ CLUB holders and build lasting relationships." className="bg-black/40 backdrop-blur-sm text-white border-none" />
               </div>
             </div>
