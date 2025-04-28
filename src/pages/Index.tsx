@@ -65,7 +65,7 @@ const Index = () => {
                 <FeatureCard 
                   icon={SisiIcon}
                   title="Get everyday TIT$" 
-                  description="If you are holder of 100k BOOB$ get fresh TIT$ to your TG everyday." 
+                  description="If you are holder of 500k BOOB$ get fresh TIT$ to your TG everyday." 
                   className="bg-black/40 backdrop-blur-sm text-white border-none" 
                 />
                 <FeatureCard 
